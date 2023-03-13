@@ -1,5 +1,5 @@
 //
-//  ExpenseTrackingAppApp.swift
+//  ExpenseTrackingApp.swift
 //  ExpenseTrackingApp
 //
 //  Created by Jamie Cartin on 3/11/23.
