@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7A5392229BD85210055322F /* ExpenseTrackingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5392129BD85210055322F /* ExpenseTrackingAppApp.swift */; };
+		D7A5392229BD85210055322F /* ExpenseTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5392129BD85210055322F /* ExpenseTrackingApp.swift */; };
 		D7A5392429BD85210055322F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5392329BD85210055322F /* ContentView.swift */; };
 		D7A5392629BD85220055322F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A5392529BD85220055322F /* Assets.xcassets */; };
 		D7A5392929BD85220055322F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A5392829BD85220055322F /* Preview Assets.xcassets */; };
@@ -16,11 +16,12 @@
 		D7A5393429BE872D0055322F /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5393329BE872D0055322F /* PreviewData.swift */; };
 		D7A5393629BE88D40055322F /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5393529BE88D40055322F /* TransactionRow.swift */; };
 		D7A5393929BEADAE0055322F /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = D7A5393829BEADAE0055322F /* SwiftUIFontIcon */; };
+		D7A5393B29BEB1750055322F /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5393A29BEB1750055322F /* TransactionListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7A5391E29BD85210055322F /* ExpenseTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A5392129BD85210055322F /* ExpenseTrackingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackingAppApp.swift; sourceTree = "<group>"; };
+		D7A5392129BD85210055322F /* ExpenseTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackingApp.swift; sourceTree = "<group>"; };
 		D7A5392329BD85210055322F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7A5392529BD85220055322F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A5392829BD85220055322F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		D7A5393129BE84190055322F /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		D7A5393329BE872D0055322F /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		D7A5393529BE88D40055322F /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		D7A5393A29BEB1750055322F /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,10 @@
 		D7A5392029BD85210055322F /* ExpenseTrackingApp */ = {
 			isa = PBXGroup;
 			children = (
-				D7A5392129BD85210055322F /* ExpenseTrackingAppApp.swift */,
+				D7A5392129BD85210055322F /* ExpenseTrackingApp.swift */,
 				D7A5392329BD85210055322F /* ContentView.swift */,
 				D7A5393529BE88D40055322F /* TransactionRow.swift */,
+				D7A5393A29BEB1750055322F /* TransactionListViewModel.swift */,
 				D7A5393129BE84190055322F /* TransactionModel.swift */,
 				D7A5392F29BE729C0055322F /* Extensions.swift */,
 				D7A5392529BD85220055322F /* Assets.xcassets */,
@@ -162,7 +165,8 @@
 				D7A5392429BD85210055322F /* ContentView.swift in Sources */,
 				D7A5393629BE88D40055322F /* TransactionRow.swift in Sources */,
 				D7A5393029BE729C0055322F /* Extensions.swift in Sources */,
-				D7A5392229BD85210055322F /* ExpenseTrackingAppApp.swift in Sources */,
+				D7A5393B29BEB1750055322F /* TransactionListViewModel.swift in Sources */,
+				D7A5392229BD85210055322F /* ExpenseTrackingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
